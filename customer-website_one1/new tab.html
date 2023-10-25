@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+
+    .nav-pills>li>a {
+      border: 2px solid;
+      border-radius: 5px;
+      padding: 24px 39px;
+      margin: 43px 10px;
+      /*box-sizing: border-box;
+      box-sizing: content-box;*/
+      tab-size: 16px; 
+    }
+    .tab-content>.active {
+      display: block;
+      border-radius: 5px;
+      box-shadow: 3px 1px 8px #d9d9d9;
+      width: 1046px;
+      margin-left: 12px;
+    }
+    .icon-holder{
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+    }
+    #hh {
+      padding: 12px 30px 12px 30px;
+    }
+    .pp {
+      padding: 0px 30px 0px 30px;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+    .imgs {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin: 17px 8px 17px 8px;
+
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>We Provider Services</h2>
+  <ul class="nav nav-pills">
+    <li class="active"><a data-toggle="pill" href="#aeps">
+      <span class="icon-holder">
+        <img src="assets/img/services/aeps.png">
+      </span>
+      Aeps
+    </a></li>
+
+    <li><a data-toggle="pill" href="#money_transfer">
+      <span class="icon-holder">
+        <img src="assets/img/services/moneytrans.png">
+      </span>
+      Money Transfer</a></li>
+
+    <li><a data-toggle="pill" href="#bill_payment">
+      <span class="icon-holder">
+        <img src="assets/img/services/moneytrans.png">
+      </span>
+       Bill Payment</a></li>
+
+    <li><a data-toggle="pill" href="#irctc">
+      <span class="icon-holder">
+        <img src="assets/img/services/moneytrans.png">
+      </span>
+      IRCTC</a></li>
+
+    <li><a data-toggle="pill" href="#loan">
+      <span class="icon-holder">
+        <img src="assets/img/services/moneytrans.png">
+      </span>
+      Loan</a></li>
+
+    <li><a data-toggle="pill" href="#insurance">
+      <span class="icon-holder">
+        <img src="assets/img/services/moneytrans.png">
+      </span>
+      Insurance</a></li>
+  </ul>
+  
+  <div class="tab-content">
+    <div id="aeps" class="tab-pane fade in active">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">Aadhaar Enabled Payment System</h3>
+          <p class="pp">To empower a bank customer to use Aadhaar as his/her identity to access his/ her respective Aadhaar enabled bank account and perform basic banking transactions like cash withdrawal, balance enquiry and obtain a mini statement through a Business Correspondent</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/aeps1.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="money_transfer" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">Money Transfer</h3>
+          <p class="pp">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/money_transfer.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="bill_payment" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">Bill Payment</h3>
+          <p class="pp">Online bill pay is environmentally friendly, eliminating paper waste. Often, banks and bill-pay services give customers the opportunity to opt out of paper mailings</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/money_transfer.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="irctc" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">IRCTC</h3>
+          <p class="pp">Indian Railway Catering and Tourism Corporation (IRCTC) is under the ownership of Indian Railways, Ministry of Railways, Government of India that provides ticketing, catering, and tourism services for the Indian Railways.</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/money_transfer.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="loan" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">Loan</h3>
+          <p class="pp">The term loan refers to a type of credit vehicle in which a sum of money is lent to another party in exchange for future repayment of the value or principal amount. </p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/money_transfer.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="insurance" class="tab-pane fade">
+      <div class="row">
+        <div class="col-md-6">
+          <h3 id="hh">Insurance</h3>
+          <p class="pp">Insurance is a cooperative device to spread the loss caused by a particular risk over some persons exposed to it and who agree to insure themselves against the risk.</p>
+        </div>
+
+        <div class="col-md-6">
+          <div class="imgs">
+            <img src="assets/img/services/money_transfer.png">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+</body>
+</html>
